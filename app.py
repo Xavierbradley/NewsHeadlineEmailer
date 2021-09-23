@@ -40,3 +40,13 @@ content += ('<br><br>End of Message')
 
 #email sending
 print('Composing email')
+
+# plugin your email information
+SERVER = 'smtp.gmail'
+PORT = 587
+FROM = '' #email id
+TO = '' #your to email id can be a list
+PASS = ' '#email password
+
+
+msg = MIMEMultipart()
